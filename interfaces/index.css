@@ -1,0 +1,150 @@
+
+.botones_menu{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(57, 153, 153);
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.botones_menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border: 3px solid #000000;
+    background-color: white;
+    width:225px;
+    height:50px;
+    font-size:18px;
+    cursor: pointer;
+}
+.div_principal{
+    width: 100%;
+    height: 600px;
+    display:inline-block;
+    justify-content: space-around;
+}
+
+.pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+}
+.contacto{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 35%;
+    border: 8px solid black;
+    border-radius: 20px;
+    float: left;
+    background-color: rgb(57, 153, 153);
+}
+
+.horario_div{
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 35%;
+    border: 8px solid black;
+    border-radius: 20px;
+    float: right;
+    background-color: rgb(57, 153, 153);
+}
+
+.title_1 {
+    font:bold 20px Arial;
+}
+
+.title_2 {
+    font:bold 20px Arial;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.text_1 {
+    font: 20px Arial;
+    color: whitesmoke;
+}
+
+.mapa {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    width: 90%;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+
+.direccion_div {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+div.comentario input {
+    width: 90%;
+    height: 50px;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#btn_enviar {
+    width: 60px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin-left: 80%;
+}
+
+#mensaje {
+    margin-bottom: 30px;   
+    height: 100px;
+}
+
+.horario_text{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+div.horario_text h1 {
+    margin-bottom: 50px;
+}
+
+.redes {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+div.redes h1 {
+    margin-bottom: 50px;
+}
+
+.redes_sociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+div.redes_sociales label {
+    font: 20px Arial;
+    margin-bottom: 20px;
+}
+
+.up {
+    width: 100px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin-left: 48%;
+
+}
