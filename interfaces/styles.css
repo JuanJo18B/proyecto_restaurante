@@ -1,80 +1,35 @@
-.I {
-    border: 3px solid #000000;
-    background-color: #E1D9BA; /*color botón*/
-    width:225px;
-    height:50px;
-    font-size:18px;
-    position: relative;
-    top: 5px; 
-    cursor: pointer;
-    }
-
-.M {
-    border: 3px solid #000000;
-    background-color: #E1D9BA; /*color botón*/
-    width:225px;
-    height:50px;
-    font-size:18px;
-    position: relative;
-    top: 5px;
-    left: 5px;
-    cursor: pointer;
-    }
-
-.S {
-    border: 3px solid #000000;
-    background-color: #E1D9BA; /*color botón*/
-    width:225px;
-    height:50px;
-    font-size:18px;
-    position: relative;
-    top: 5px;
-    margin-left: 5px;
-    cursor: pointer;
-    }
-
-.C {
-    border: 3px solid #000000;
-    background-color: #E1D9BA; /*color botón*/
-    width:225px;
-    height:50px;
-    font-size:18px;
-    position: relative;
-    top: 5px;
-    left: 135px;
-    cursor: pointer;
-    }
-
-.AD {
-    border: 3px solid #000000;
-    background-color: #E1D9BA; /*color botón*/
-    width:225px;
-    height:50px;
-    font-size:18px;
-    position: relative;
-    top: 5px;
-    left: 135px;
-    cursor: pointer;
-    }
-
-.IS {
-    border: 3px solid #000000;
-    background-color: #E1D9BA; /*color botón*/
-    width:225px;
-    height:50px;
-    font-size:18px;
-    position: relative;
-    top: 5px;
-    left: 135px;
-    cursor: pointer;
-    }
-
-.rectangulo_1{
-    width: 100%; 
-    height: 60px; 
-    border: 3px solid #000000;
-    background: #1fadd1;
+a{
+    text-decoration: none;
+    color: #000000;
+} 
+.botones_menu{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(57, 153, 153);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+button{
+    border: 3px solid #000000;
+    background-color: white;
+    width:225px;
+    height:50px;
+    font-size:18px;
+    cursor: pointer;
+}
+
+.imagenes{
+    width: 100%;
+    text-align: center;
+}
+
+.informacion{
+    width: 100%;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -127,14 +82,11 @@
 }
 
 .Srv {
-
     width: 400px; 
     height: 200px; 
     border: 3px solid #000000;
+    margin: 30px;
     background: #1fadd1;
-    position: relative;
-    top: 5px;
-    left: 45px;
     border-radius:20px;
     text-align:center;
 }
@@ -144,10 +96,8 @@
     width: 400px; 
     height: 200px; 
     border: 3px solid #000000;
+    margin: 30px;
     background: #1fadd1;
-    position: relative;
-    top: -215px;
-    left: 555px;
     border-radius:20px;
     text-align:center;
 }
@@ -158,22 +108,16 @@
     height: 200px; 
     border: 3px solid #000000;
     background: #1fadd1;
-    position: relative;
-    top: -435px;
-    left: 1065px;
+    margin: 30px;
     border-radius:20px;
     text-align:center;
 }
 
 .ORDEN {
-
     width: 200px; 
     height: 300px; 
     border: 3px solid #000000;
     background: #1fadd1;
-    position: relative;
-    top: 5px;
-    left: 5px;
     border-radius:20px;
     text-align:center;
 }
@@ -183,9 +127,6 @@
     height: 300px; 
     border: 3px solid #000000;
     background: #1fadd1;
-    position: relative;
-    top: -315px;
-    left: 300px;
     border-radius:20px;
     text-align:center;
 }
@@ -196,9 +137,6 @@
     height: 300px; 
     border: 3px solid #000000;
     background: #1fadd1;
-    position: relative;
-    top: -635px;
-    left: 600px;
     border-radius:20px;
     text-align:center;
 }
@@ -208,9 +146,6 @@
     height: 300px; 
     border: 3px solid #000000;
     background: #1fadd1;
-    position: relative;
-    top: -955px;
-    left: 900px;
     border-radius:20px;
     text-align:center;
 }
@@ -220,21 +155,15 @@
     height: 300px; 
     border: 3px solid #000000;
     background: #1fadd1;
-    position: relative;
-    top: -1275px;
-    left: 1200px;
     border-radius:20px;
     text-align:center;
 }
 
 .rectangulo2 {
-    width: 1505px; 
+    width: 100%; 
     height: 100px; 
     border: 3px solid #000000;
     background: #000000;
-    position: relative;
-    top: -1235px;
-    left: 0px;
     font-size:18px;
     text-align:center;
 }

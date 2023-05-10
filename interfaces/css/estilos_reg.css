@@ -27,7 +27,7 @@ h2{
     display: flex;
     justify-content: center;
 }
-.btn{
+button{
     border: 3px solid #000000;
     background-color: white;
     width:225px;
