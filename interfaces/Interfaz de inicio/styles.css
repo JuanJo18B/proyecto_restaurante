@@ -165,13 +165,75 @@
     text-align:center;
 }
 
+.ORDEN {
+
+    width: 200px; 
+    height: 300px; 
+    border: 3px solid #000000;
+    background: #1fadd1;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-radius:20px;
+    text-align:center;
+}
+.ESTADO {
+
+    width: 200px; 
+    height: 300px; 
+    border: 3px solid #000000;
+    background: #1fadd1;
+    position: relative;
+    top: -315px;
+    left: 300px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.PAGOS {
+
+    width: 200px; 
+    height: 300px; 
+    border: 3px solid #000000;
+    background: #1fadd1;
+    position: relative;
+    top: -635px;
+    left: 600px;
+    border-radius:20px;
+    text-align:center;
+}
+.ATENCION {
+
+    width: 200px; 
+    height: 300px; 
+    border: 3px solid #000000;
+    background: #1fadd1;
+    position: relative;
+    top: -955px;
+    left: 900px;
+    border-radius:20px;
+    text-align:center;
+}
+.BENEFICIO {
+
+    width: 200px; 
+    height: 300px; 
+    border: 3px solid #000000;
+    background: #1fadd1;
+    position: relative;
+    top: -1275px;
+    left: 1200px;
+    border-radius:20px;
+    text-align:center;
+}
+
 .rectangulo2 {
     width: 1505px; 
     height: 100px; 
     border: 3px solid #000000;
     background: #000000;
     position: relative;
-    top: -435px;
+    top: -1235px;
     left: 0px;
     font-size:18px;
     text-align:center;
